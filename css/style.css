@@ -15,7 +15,7 @@ html {
 .container{
     width:600px;
     height:400px;
-    margin:140px auto 10px auto;
+    margin:10% auto 20% auto;
     position: absolute; /* Абсолютное позиционирование */
     bottom: 40%; /* Положение от нижнего края */
     right: 27%;
