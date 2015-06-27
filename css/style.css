@@ -49,8 +49,8 @@ button:focus {
 outline: none
 }
 .wrap{
-    width:200px;
-    height:200px;
+    width:33.3%;
+    height:50%;
     margin:auto;
 	z-index: 1;
     overflow:hidden;
