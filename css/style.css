@@ -13,8 +13,8 @@ html {
 	/*background-size: cover; Фон занимает всю доступную площадь */
    }
 .container{
-    width:600px;
-    height:400px;
+    width:44.5%;
+    height:62%;
     margin:10% auto 20% auto;
     position: absolute; /* Абсолютное позиционирование */
     bottom: 40%; /* Положение от нижнего края */
