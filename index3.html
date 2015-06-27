@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title> Gallery</title>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+	    </head>
+    <body>
+	<body style="background-image:url(mp1.jpg)">
+	<style>
+   html {
+   height: 100%; /* Высота страницы */
+    background:#c7b39b url("image9.jpg")no-repeat center  fixed ; /* Цвет фона и путь к файлу */
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    color: #fff; /* Цвет текста */
+	/*background-size: cover; Фон занимает всю доступную площадь */
+   }
+   </style>
+	      <div id="container" class="container">
+            <div class="wrap">
+                <a href="index4.html">
+                    <img src="images/image1.jpg" alt="Picture 1"/>
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="index2.html">
+                    <img src="images/image2.jpg" alt="Picture 2"/>
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="https://www.facebook.com/viktoria.pasuk?fref=pb&hc_location=friends_tab&pnref=friends.all">
+                    <img src="images/image3.jpg" alt="Picture 3"/>
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="aboutme.html">
+                    <img src="images/image4.jpg" alt="Picture 4"/>
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="index.html">
+                    <img src="images/image5.jpg" alt="Picture 5"/>
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="index1.html">
+                    <img src="images/image6.jpg" alt="Picture 6"/>
+                </a>
+            </div>
+        </div>
+        <div>
+            <a class="back" href="file:///C:/DISK%20L/%D1%81%D0%B0%D0%B9%D1%82%20%D0%B2%D0%B8%D0%BA%D0%B0/vika1.html"></a>
+        </div>
+
+        <!-- The JavaScript -->
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+				$('#container img').hover(
+					function(){
+						var $this = $(this);
+						$this.stop().animate({'opacity':'1.0','height':'200px','top':'0px','left':'0px','right':'0px'});
+					},
+					function(){
+						var $this = $(this);
+						$this.stop().animate({'opacity':'0.5','height':'500px','top':'-66.5px','left':'-150px'});
+					}
+				);
+            });
+        </script>
+    </body>
+</html>

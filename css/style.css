@@ -1,0 +1,66 @@
+*{
+    margin:;
+    padding:auto;
+	z-index: 3;
+}
+html {
+   height: 100%; /* Высота страницы */
+    background: url(vikafon.png)no-repeat center center fixed ; /* Цвет фона и путь к файлу */
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    color: #fff; /* Цвет текста */
+	/*background-size: cover; Фон занимает всю доступную площадь */
+   }
+.container{
+    width:600px;
+    height:400px;
+    margin:140px auto 10px auto;
+	position5: static;
+    border:15px solid #8B658B;
+    -moz-box-shadow:1px 1px 12px #000;
+    -webkit-box-shadow:1px 1px 12px #000;
+    box-shadow:1px 1px 12px #000;
+}
+a.back1{
+    width:184px;
+    height:32px;
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    background:transparent url(images/image7.jpg) no-repeat top left;
+}
+a.back9 {
+display: inline-block;
+margin: 0 10px 0 0;
+padding: 15px 45px;
+font-size: 48px;
+font-family: "Bitter",serif;
+line-height: 1.8;
+appearance: none;
+box-shadow: none;
+border-radius: 0;
+}
+button:focus {
+outline: none
+}
+.wrap{
+    width:200px;
+    height:200px;
+    margin:auto;
+	z-index: 1;
+    overflow:hidden;
+    position:relative;
+    float:left;
+}
+.wrap a img  {
+    border:none;
+    position:absolute;   
+    top:-66.5px;
+    left:-150px;
+    height:300px;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}

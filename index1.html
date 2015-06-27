@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Интерактивная стена фотографий на jQuery</title>
+<style type="text/css">
+body {
+	margin: auto; padding: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFE4E1 url(header.jpg) no-repeat;
+}
+
+#images {
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+}
+
+#images span img {
+	margin: 0;
+	font-size: 20px;
+	width: inherit;
+	position: absolute;
+	height: inherit;
+	width: 100%;
+	height: 100%;
+}
+
+
+#images span {
+	display: inline-block;
+	position: relative;
+}
+
+a img {
+	border: 0;
+}
+
+#images span img:hover {
+	box-shadow: 0px 0px 40px rgba(0,0,0,1);
+}
+
+#bars {
+	background: #000;
+	width: 100%;
+	color: #FFE4E1;
+	font-weight: bold;
+	position: relative;
+	padding: 30px 0 30px 0 ;
+	z-index: 10000;
+	box-shadow: 0px 0px 40px rgba(0,0,0,1);
+	font-size: 56px;
+	text-align: center;
+	font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+}
+
+#bars a {
+	opacity: 1 !important;
+	color: #fff;
+	font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jscript.js"></script>
+</head>
+<body>
+<br><br><br><br><br><br><br><br><br><br>
+<div id="images">
+		<span id="i1"><a href="#"><img src="image-1.jpg" alt="image-1" /></a></span>
+		<span id="i2"><a href="#"><img src="image-2.jpg" alt="image-2" /></a></span>
+		<span id="i3"><a href="#"><img src="image-3.jpg" alt="image-3" /></a></span>
+		<span id="i4"><a href="#"><img src="image-4.jpg" alt="image-4" /></a></span>
+		<span id="i5"><a href="#"><img src="image-5.jpg" alt="image-5" /></a></span>
+		<span id="i6"><a href="#"><img src="image-6.jpg" alt="image-6" /></a></span>
+		<span id="i7"><a href="#"><img src="image-7.jpg" alt="image-7" /></a></span>		
+		<span id="i8"><a href="#"><img src="image-8.jpg" alt="image-8" /></a></span>		
+		<span id="i9"><a href="#"><img src="image-9.jpg" alt="image-3" /></a></span>		
+		<span id="i10"><a href="#"><img src="image-10.jpg" alt="image-1" /></a></span>	
+		<span id="i11"><a href="#"><img src="image-11.jpg" alt="image-2" /></a></span>	
+		<span id="i12"><a href="#"><img src="image-12.jpg" alt="image-12" /></a></span>	
+		<span id="i13"><a href="#"><img src="image-13.jpg" alt="image-13" /></a></span>	
+<!--<span id="i13"><a href="#"><img src="image-4.jpg" alt="image-4" /></a></span>	
+		<span id="i14"><a href="#"><img src="image-3.jpg" alt="image-3" /></a></span>	
+		<span id="i15"><a href="#"><img src="image-5.jpg" alt="image-5" /></a></span>	
+		<span id="i16"><a href="#"><img src="image-6.jpg" alt="image-6" /></a></span>	
+		<span id="i17"><a href="#"><img src="image-5.jpg" alt="image-5" /></a></span>	
+		<span id="i18"><a href="#"><img src="image-8.jpg" alt="image-8" /></a></span>	
+		<span id="i19"><a href="#"><img src="image-6.jpg" alt="image-6" /></a></span>	
+		<span id="i20"><a href="#"><img src="image-10.jpg" alt="image-10" /></a></span>	-->
+</div>
+	
+<!--<div id="bars">
+  &nbsp;
+</div>-->
+</body>
+</html>
