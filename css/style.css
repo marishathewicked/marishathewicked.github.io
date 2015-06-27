@@ -16,7 +16,7 @@ html {
     width:600px;
     height:400px;
     margin:140px auto 10px auto;
-	position5: static;
+    position: static;
     border:15px solid #8B658B;
     -moz-box-shadow:1px 1px 12px #000;
     -webkit-box-shadow:1px 1px 12px #000;
