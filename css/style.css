@@ -16,9 +16,11 @@ html {
     width:600px;
     height:400px;
     margin:140px auto 10px auto;
-    position: fixed; 
-    bottom: 10%; /* Положение от нижнего края */
-    right: 27%; 
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 40%; /* Положение от нижнего края */
+    right: 27%;
+    top:3%;
+    left:27%;
     border:15px solid #8B658B;
     -moz-box-shadow:1px 1px 12px #000;
     -webkit-box-shadow:1px 1px 12px #000;
