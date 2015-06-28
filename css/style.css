@@ -16,7 +16,7 @@ html {
     width:44.5%;
     height:62%;
     margin:10% auto 20% auto;
-    position: absolute; /* Абсолютное позиционирование */
+    position: fixed; /* Абсолютное позиционирование */
     bottom: 40%; /* Положение от нижнего края */
     right: 27%;
     top:3%;
