@@ -51,8 +51,7 @@ outline: none
 .wrap{
     width:33.3%;
     height:50%;
-    margin:auto;
-	z-index: 1;
+    margin:0;
     overflow:hidden;
     position:relative;
     float:left;
