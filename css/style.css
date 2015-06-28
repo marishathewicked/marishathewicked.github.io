@@ -60,9 +60,9 @@ outline: none
 .wrap a img  {
     border:none;
     position:absolute;   
-    top:-86.5px;
-    left:-100px;
-    height:300px;
+    top:-40%;
+    left:-90%;
+    height:200%;
     opacity: 0.5;
     -moz-opacity: 0.5;
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
