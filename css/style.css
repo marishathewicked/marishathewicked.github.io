@@ -3,21 +3,20 @@
     padding:0;
 }
 html {
-   height: 100%; /* Высота страницы */
-    background: url(vikafon.png)no-repeat center center fixed ; /* Цвет фона и путь к файлу */
+   height: 100%; 
+    background: url(vikafon.png)no-repeat center center fixed ; 
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	    color: #fff; /* Цвет текста */
-	/*background-size: cover; Фон занимает всю доступную площадь */
-   }
+	    color: #fff; 
+	   }
 .container{
     width:44.5%;
     height:62%;
     margin:10% auto 20% auto;
-    position: fixed; /* Абсолютное позиционирование */
-    bottom: 40%; /* Положение от нижнего края */
+    position: fixed; 
+    bottom: 40%; 
     right: 27%;
     top:3%;
     left:27%;
@@ -25,28 +24,6 @@ html {
     -moz-box-shadow:1px 1px 12px #000;
     -webkit-box-shadow:1px 1px 12px #000;
     box-shadow:1px 1px 12px #000;
-}
-a.back1{
-    width:184px;
-    height:32px;
-    position:absolute;
-    bottom:10px;
-    left:10px;
-    background:transparent url(images/image7.jpg) no-repeat top left;
-}
-a.back9 {
-display: inline-block;
-margin: 0 10px 0 0;
-padding: 15px 45px;
-font-size: 48px;
-font-family: "Bitter",serif;
-line-height: 1.8;
-appearance: none;
-box-shadow: none;
-border-radius: 0;
-}
-button:focus {
-outline: none
 }
 .wrap{
     width:33.3%;
