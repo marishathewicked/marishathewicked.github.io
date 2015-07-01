@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
+<head>	
 <meta name=viewport content="width=device-width, initial-scale=1">	
-<head>
 <meta charset="utf-8">
 <title>Presentation</title>
 <script src="jquery-1.7.2.min.js"></script>
@@ -9,21 +9,20 @@
 <body>
 <style>
    html {
-   height: 100%; /* Высота страницы */
+   height: 100%;
     background:#c7b39b url("http://marishathewicked.s3.eu-central-1.amazonaws.com/images/image4.jpg")no-repeat center fixed ; /* Цвет фона и путь к файлу */
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	    color: #fff; /* Цвет текста */
-	/*background-size: cover; Фон занимает всю доступную площадь */
+	    color: #fff; 
    }
    </style>
 <style>
-#slider-wrap{ /* Оболочка слайдера и кнопок */
+#slider-wrap{ 
 	width:660px; 
 	}
-#slider{ /* Оболочка слайдера */
+#slider{ 
 	width:400px;
 	height:570px;
 	overflow: hidden;
@@ -33,7 +32,7 @@
 	width:100%;
 	height:200%;
 	}
-.sli-links{ /* Кнопки смены слайдов */
+.sli-links{ /* Кнопки смены слайдов если пригодятся  */
 	margin-top:10px;
 	text-align:center;}
 .sli-links .control-slide{
@@ -71,17 +70,10 @@
 <script>
 
 /*
-
-HW Slider - простой слайдер на jQuery. 
-
-Настройки скрипта:
-
+Для настроек скрипта ( в первоночальном варианте работает не всё):
 hwSlideSpeed - Скорость анимации перехода слайда.
 hwTimeOut - время до автоматического перелистывания слайдов.
 hwNeedLinks - включает или отключает показ ссылок "следующий - предыдущий". Значения true или false
-
-Подробнее на http://heavenweb.ru/
-
 */
 (function ($) {
 var hwSlideSpeed = 700;
